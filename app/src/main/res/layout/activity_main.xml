@@ -12,18 +12,30 @@
         android:layout_height="wrap_content"
         android:gravity="center_horizontal"
         android:orientation="horizontal">
+<!--        <Button-->
+<!--            android:id="@+id/btnPrev"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginRight="15dp"-->
+<!--            android:text="Prev"/>-->
+<!--        <Button-->
+<!--            android:id="@+id/btnNext"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginRight="15dp"-->
+<!--            android:text="Next"/>-->
         <Button
-            android:id="@+id/btnPrev"
+            android:id="@+id/btnStart"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginRight="15dp"
-            android:text="Prev"/>
+            android:text="Start picture"/>
         <Button
-            android:id="@+id/btnNext"
+            android:id="@+id/btnStop"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginRight="15dp"
-            android:text="Next"/>
+            android:text="Stop picture"/>
     </LinearLayout>
     <ViewFlipper
         android:id="@+id/flipper"
